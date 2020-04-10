@@ -1,0 +1,94 @@
+body {
+  background: #F1EFED;
+  color: #5F5F5F;
+}
+
+
+
+.wrap {
+}
+
+.wrap .main {
+  padding-right: 0;
+  padding-left: 0;
+
+}
+
+.container-fluid {
+
+  .row {
+
+  }
+}
+
+
+.admin-bar .navbar {
+  padding-top: 32px;
+}
+
+.admin-bar {
+  padding-top: 51px;
+}
+
+.comment-content img,
+.entry-content img,
+.widget img {
+  max-width: 100%;
+}
+
+img[class*=align],
+img[class*=wp-image-] {
+  height: auto;
+}
+
+img.size-full {
+  max-width: 100%;
+  width: auto;
+}
+
+img.wp-post-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.search-form .search-submit {
+  color: #fff;
+  background-color: #bcbcbc;
+  border-color: #c4c4c4;
+  text-transform: uppercase;
+  font-size: 1em;
+  display: block;
+  border-radius: 0;
+}
+
+.search-form .search-field {
+  border-radius: 0;
+}
+
+h1, h2, h3, h4 {
+  font-family: $font-family-sans-serif;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 1.4em;
+  letter-spacing: 0.09em;
+  font-weight: 600;
+}
+
+.carousel-header {
+  margin-bottom: 1em;
+}
+.page-header h1 {
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 0.05em;
+
+  @include media-breakpoint-up(sm) {
+    font-size: 3.5em;
+
+  }
+}
+
+
+

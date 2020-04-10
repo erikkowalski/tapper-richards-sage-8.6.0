@@ -1,0 +1,32 @@
+.home {
+  .carousel{
+    .carousel-caption {
+      bottom: 25%;
+        @include media-breakpoint-up(sm){
+        transition: bottom 1s;
+        bottom: 30%;
+      }
+      @include media-breakpoint-up(md){
+        bottom: 40%;
+      }
+    h2 {
+
+     display: inline-block;
+      text-transform: uppercase;
+      color: $blue;
+      font-weight: 600;
+      font-size: 1em;
+      background: rgba(255, 255, 255, 0.71);
+      padding:0.6em 0.8em;
+      margin-bottom: 1em;
+      letter-spacing: 0.05em;
+      @include media-breakpoint-up(sm){
+        background: rgba(255, 255, 255, 0.83);
+        margin: 1em;
+        font-size: 1.3em;
+        font-weight: 100;
+      }
+    }
+   }
+  }
+}

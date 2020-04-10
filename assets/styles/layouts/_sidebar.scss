@@ -1,0 +1,24 @@
+.sidebar {
+  @include media-breakpoint-down(sm){
+    display: none;
+  }
+  h3 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.37);
+    margin-top: 1.5em;
+    font-size: 1.3em;
+    font-weight: 500;
+    line-height: 1.8em;
+  }
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  a {
+    color: #c9c9c9;
+  }
+}
